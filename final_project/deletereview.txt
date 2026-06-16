@@ -1,4 +1,4 @@
-curl -b cookies.txt -X DELETE http://localhost:5000/customer/auth/review/1
+curl -b cookies.txt -X DELETE http://localhost:5000/review/1
 
 {
   "message": "Review successfully deleted"
